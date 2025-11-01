@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Gurleen Kaur  
+# 👋 Hey, I'm Gurleen Kaur  
 
 ### 🚀 Data Science & AI Enthusiast  
 
