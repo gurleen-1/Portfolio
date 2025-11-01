@@ -1,44 +1,38 @@
-Kulveen Kaur – Portfolio Website
+# 👋 Hi, I'm Gurleen Kaur  
 
-A responsive, animated personal portfolio website to showcase my experience in data science, analytics, and research. This site highlights key projects, academic work, resume, and contact details.
+### 🚀 Data Science & AI Enthusiast  
 
-===========================
-FEATURES
-===========================
-- Mobile-first responsive design
-- Scroll-based animations and interactive UI
-- Toggleable skill sections with icons
-- Modal popup for profile image
-- Organized layout with navigation bar and section links
+I’m passionate about exploring how data and artificial intelligence can solve real-world problems. I love diving deep into datasets, experimenting with models, and building solutions that make decisions smarter and more human.  
 
-===========================
-TECHNOLOGIES USED
-===========================
-- HTML5 / CSS3
-- JavaScript (Vanilla)
-- jQuery (for scroll effects and modals)
-- Font Awesome (icons)
-- Google Fonts (Merriweather, Source Sans Pro)
+My interests lie at the intersection of **data analysis, machine learning, and AI applications** — where insights meet innovation. I’m always learning, creating, and improving through hands-on projects.  
 
+---
 
-===========================
-LIVE SITE
-===========================
-Visit: https://kulveenkaur25.github.io/Portfolio/
+### 🧠 What I’m Into  
+- Machine Learning & Deep Learning  
+- Natural Language Processing (NLP)  
+- Data Visualization & Storytelling  
+- Python, SQL, and Data Engineering  
+- Experimenting with LLMs and AI-driven systems  
 
-===========================
-LICENSE & USAGE
-===========================
-This project is for personal use and academic presentation. All original content (text, projects, resume, images) is © Kulveen Kaur.
-Please do not reproduce without permission.
+---
 
-===========================
-CONTACT
-===========================
-Kulveen Kaur
-Syracuse, New York, USA
-Email: kulveenkaur25@gmail.com
-LinkedIn: https://www.linkedin.com/in/kulveenkaur15
-GitHub: https://github.com/kulveenkaur25
-Research: https://scholar.google.com/citations?hl=en&user=-7a73VsAAAAJ&view_op=list_works
+### 💡 What You’ll Find Here  
+You’ll find a mix of:  
+- 🌱 Learning projects and experiments in data science  
+- 📊 Exploratory Data Analysis (EDA) notebooks  
+- 🤖 AI models built for real-world scenarios  
+- 🧩 Mini tools and visualizations that make data more intuitive  
 
+---
+
+### 📫 Let’s Connect  
+I’m always open to learning and collaborating on exciting AI projects!  
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/your-link-here)  
+- 📧 Email: yourname@email.com  
+- 🌐 Portfolio: [your-portfolio-link.com](#)  
+
+---
+
+⭐ *“Curiosity fuels learning. Data turns it into discovery.”*  
