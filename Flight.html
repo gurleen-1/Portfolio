@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Flight Reservation System</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <style>
+    .project-section {
+      background: #f9f9f9;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    }
+    .project-section h3 {
+      margin-top: 0;
+    }
+    .button-custom {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 0.75rem 1.5rem;
+      background-color: #2e2e2e;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    .button-custom:hover {
+      background-color: #555;
+    }
+    img.image-fit {
+      border-radius: 5px;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body class="is-preload">
+  <div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+      <a href="generic.html" class="logo">← Back to Projects</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+      <ul class="links">
+        <li><a href="index.html">ABOUT</a></li>
+        <li class="active"><a href="generic.html">PROJECTS</a></li>
+        <li><a href="Resume.html">RESUME</a></li>
+        <li><a href="papers.html">PAPERS</a></li>
+        <li><a href="elements.html">CONTACT</a></li>
+      </ul>
+      <ul class="icons">
+        <li><a href="https://www.linkedin.com/in/gurleen-kaur-6074051b0/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        <li><a href="https://github.com/gurleen-1" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+      </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+      <article class="post featured">
+        <header class="major">
+          <h1>Flight Reservation System</h1>
+          <p>Interactive Java Swing Flight Reservation System with Dynamic Booking and Class-Based Flight Display.</p>
+        </header>
+        <div style="text-align: center;">
+          <img src="images/Airport.jpg" alt="Airport" class="image-fit" />
+        </div>
+      </article>
+
+      <section class="project-section">
+        <h3>Project Overview</h3>
+        <p>This Java Swing application implements a Flight Reservation System that enables users to log in and book domestic and international flights. It offers interactive tables displaying flight routes, prices, and timings across economic and business classes. The system enhances user experience with an intuitive GUI for selecting flights and managing bookings, demonstrating core concepts of event-driven programming and UI design.</p>
+      </section>
+
+      <section class="project-section">
+        <h3>Problem Statement</h3>
+        <p>Booking flights manually can be time-consuming and prone to errors, while existing digital solutions often lack user-friendly interfaces. This project leverages Java Swing to create an interactive flight reservation system that simplifies booking through clear visualization of routes, prices, and classes, enhancing accessibility and efficiency in the flight booking process.</p>
+      </section>
+      <!--
+      <section class="project-section">
+        <h3>Dataset</h3>
+        <p>We used the <a href="https://www.kaggle.com/datasets/uraninjo/augmented-alzheimer-mri-dataset" target="_blank" class="highlight-link">Kaggle-based MRI dataset</a>, containing 6,400 MRI scans categorized across four dementia severity classes. Data was augmented using DCGAN to balance class representation (400 images per class).</p>
+      </section> 
+    -->
+
+      <section class="project-section">
+        <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 2rem;">
+          <div style="flex: 1 1 500px;">
+            <h3>Approach & Methodology</h3>
+            <ul>
+              <li>Implemented Java Swing-based graphical interface for an interactive flight reservation experience.</li>
+              <li>Applied modular panel structure to manage login, flight selection, and booking details.</li>
+              <li>Used hardcoded flight data for domestic and international routes, covering destinations, prices, timings, and travel class.</li>
+              <li>Incorporated event-driven programming with dedicated classes for handling user actions, mouse events, and navigation.</li>
+              <li>Followed object-oriented principles for better code organization and future scalability.</li>
+              <li>Focused on clear data presentation and smooth user interaction for intuitive booking flow.</li>
+            </ul>
+          </div>
+          <div style="flex: 1 1 400px; text-align: center;">
+            <img src="images/Picture1.png" alt="CNN Pipeline" onclick="openModal()" style="max-width: 100%; border-radius: 15px; cursor: pointer;" />
+          </div>
+        </div>
+        <div id="imgModal" style="display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.85);" onclick="closeModal()">
+          <img src="images/Picture1.png" alt="Diagram Enlarged" style="max-width: 90%; max-height: 90%; margin: auto; display: block; border-radius: 12px;" />
+        </div>
+      </section>
+
+      <!--
+      <section class="project-section">
+        <h3>Visual Insights</h3>
+        <img src="images/download.png" alt="Augmented image" class="image-fit" />
+      </section>
+      -->
+
+
+      <section class="project-section">
+        <h3>Results</h3>
+        <ul>
+          <li><strong>Interface:</strong> Java Swing</li>
+          <li><strong>Booking Accuracy:</strong> 100%</li>
+          <li><strong>Flight Categories:</strong> Domestic and International</li>
+          <li><strong>Class Options:</strong> Economic and Business</li>
+          <li><strong>System Status:</strong> Fully Functional</li>
+        </ul>
+
+        <div class="result-grid">
+          <div class="result-grid-item">
+            <p>Login Page</p>
+            <img src="images/Login.png" alt="Login Page" style="margin-bottom: 1rem;" />
+          </div>
+          
+          <div class="result-grid-item">
+          
+            <p>Final Image</p>
+            <img src="images/result-predicted.png" alt="Prediction Examples" class="large-image" />
+            <!--<h5>Non-Demented image</h5>
+            <img src="images/gradcam2.png" alt="Grad-CAM Heatmap 2" />-->
+          </div>
+        
+        </div>
+      </section>
+
+      <section class="project-section">
+        <h3>Challenges</h3>
+        <ul>
+          <li>Limited flight data hardcoded, restricting scalability</li>
+          <li>Managing multiple GUI panels and event handling complexity</li>
+          <li>Lack of real-time data integration</li>
+        </ul>
+      </section>
+
+      <section class="project-section">
+        <h3>Achievements</h3>
+        <ul>
+          <li>Developed fully functional multi-panel flight booking interface</li>
+          <li>Implemented smooth navigation between domestic/international and class options</li>
+          <li>Ensured robust login authentication and data presentation</li>
+        </ul>
+      </section>
+
+      <section class="project-section">
+        <h3>Future Work</h3>
+        <ul>
+          <li>Integrate real-time flight data via APIs or databases</li>
+          <li>Add booking confirmation and payment processing</li>
+          <li>Improve UI design and responsiveness for better user experience</li>
+        </ul>
+      </section>
+
+      <!--<section class="project-section">
+        <h3>Project Links</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center;">
+          <p><strong>GitHub Repository:</strong> <a href="https://github.com/yourusername/dementia-project" target="_blank">GitHub</a></p>
+          <p><strong>Final Report:</strong> <a href="https://drive.google.com/file/d/1e6AEnWFHi1dKZBctUg6BqUcD1k3-XBqY/view?usp=drive_link" target="_blank">View PDF</a></p>
+          <p><strong>Poster:</strong> <a href="https://drive.google.com/file/d/1zANHIIK9P6zz3RrOTnGFhQmJshbc4vLU/view?usp=drive_link" target="_blank">View PDF</a></p>
+          <p><strong>Code:</strong> <a href="https://colab.research.google.com/drive/1Fc5RVe3An2VSVLMIR8K-sZE2wcFPpOA3#scrollTo=4taubBrPpEUh" target="_blank">Colab</a></p>
+        </div>
+      </section>-->
+
+      <section class="project-section">
+        <h3>Real-World Impact</h3>
+        <p>This system streamlines flight booking by offering an easy-to-use interface, improving accessibility for travelers and reducing manual errors-especially helpful for users unfamiliar with complex reservation platforms.</p>
+      </section>
+    </div>
+
+    <!-- Footer -->
+  <!--  <footer id="footer">
+      <section class="split contact">
+        <section class="alt">
+          <h3>Address</h3>
+          <p>Delhi, INDIA</p>
+        </section>
+        <section>
+          <h3>Email</h3>
+          <p><a href="mailto:Gurleenk1424@gmail.com">Gurleenk1424@gmail.com</a></p>
+        </section>
+        <section>
+          <h3>Social</h3>
+          <ul class="icons alt">
+            <li><a href="http://www.linkedin.com/in/gurleen-kaur-6074051b0/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            <li><a href="https://github.com/gurleen-1" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+          </ul>
+        </section>
+      </section>
+    </footer>-->
+
+    <footer id="footer">
+      <p>© Gurleen Kaur 2020</p>
+    </footer>
+
+  </div>
+
+  
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    function openModal() {
+      document.getElementById("imgModal").style.display = "flex";
+    }
+    function closeModal() {
+      document.getElementById("imgModal").style.display = "none";
+    }
+  </script>
+</body>
+</html>

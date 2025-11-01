@@ -1,0 +1,349 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RakshaRisk -  Platform for Identifying and Mitigating Financial Risks</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <style>
+    .project-section {
+      background: #f9f9f9;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    }
+    .project-section h3 {
+      margin-top: 0;
+    }
+    .button-custom {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 0.75rem 1.5rem;
+      background-color: #2e2e2e;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    .button-custom:hover {
+      background-color: #555;
+    }
+    img.image-fit {
+      border-radius: 5px;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      max-width: 100%;
+      height: auto;
+    }
+    .eda-tabs {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+    .eda-tabs li {
+      cursor: pointer;
+      padding: 0.6rem 1.2rem;
+      background-color: #eee;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    }
+    .eda-tabs li:hover {
+      background-color: #d1eaff;
+      border-color: #89cfff;
+      color: #003366;
+    }
+    .eda-tabs li.active {
+      background-color: #005f99;
+      border-color: #004c80;
+      color: #fff;
+    }
+  </style>
+</head>
+<body class="is-preload">
+  <div id="wrapper">
+    <header id="header">
+      <a href="generic.html" class="logo">← Back to Projects</a>
+    </header>
+
+
+    <!-- Nav -->
+    <nav id="nav">
+      <ul class="links">
+        <li><a href="index.html">ABOUT</a></li>
+        <li class="active"><a href="generic.html">PROJECTS</a></li>
+        <li><a href="Resume.html">RESUME</a></li>
+        <li><a href="papers.html">PAPERS</a></li>
+        <li><a href="elements.html">CONTACT</a></li>
+      </ul>
+      <ul class="icons">
+        <li><a href="https://www.linkedin.com/in/gurleen-kaur-6074051b0/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        <li><a href="https://github.com/gurleen-1" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+      </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+      <article class="post featured">
+        <header class="major">
+          <h1>Raksha-Risk</h1>
+          <p>Advanced data modeling to forecast credit risk and flag unusual financial behavior, enabling smarter, timely risk interventions.</p>
+          <div style="text-align: center; margin-top: 1rem;">
+            <!--<a href="https://nyvzt1-yashaswi-pandey.shinyapps.io/finalProject-Group2/" 
+               class="button-custom" 
+               target="_blank">
+               🔗 View Live 
+            </a>-->
+          </div>
+        </header>
+      <div style="text-align: center;">
+  <img src="images/raksha-risk.PNG" alt="Energy Dashboard" class="image-fit" style="width: 80%; max-width: 700px;" />
+</div>
+
+      </article>
+
+      <section class="project-section">
+        <h3>Project Overview</h3>
+        <p>Developed an AI-powered platform for detecting financial anomalies and assessing credit default risk using real-world transaction and customer data. By integrating behavioral patterns, transactional signals, and account profiles, RakshaRisk delivers predictive insights to support fraud detection, compliance, and proactive risk management strategies.</p>
+      </section>
+
+      <section class="project-section">
+        <h3>Problem Statement</h3>
+        <p>Financial institutions face growing challenges in detecting fraudulent transactions and assessing credit risk, as traditional systems struggle with imbalanced data and limited transparency. This project unifies anomaly detection and credit default prediction into a single AI-driven solution, ensuring accuracy, speed, and interpretability for smarter, more reliable decision-making.</p>
+      </section>
+
+      <section class="project-section">
+        <h3>How RakshaRisk Protects and Predicts</h3>
+        <p>RakshaRisk is all about helping financial institutions stay one step ahead by spotting unusual credit card transactions that might be fraudulent, using smart unsupervised learning methods like Isolation Forest and LOF. At the same time, it predicts which customers might struggle to repay their loans with trusted models like Random Forest and Logistic Regression. What makes it really useful is how it brings all this complex information together into easy-to-understand, interactive dashboards, complete with clear explanations, so decision-makers can confidently take action and protect both their business and customers.</p>
+      </section>
+
+      <section class="project-section">
+        <h3>Dataset & Sources</h3>
+        <ul>
+          <li>
+            <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud" target="_blank">
+              Credit Card Fraud Detection dataset from Kaggle (anonymized transaction data)
+            </a>
+          </li>
+          <li>
+            <a href="https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset" target="_blank">
+              Default of Credit Card Clients dataset from Kaggle (payment history, demographics, financial records)
+            </a>
+          </li>
+        </ul>
+        <p>
+          A custom data pipeline was developed to clean, merge, and preprocess these datasets, addressing class imbalance, scaling features, 
+          and preparing them for both anomaly detection and classification models.
+        </p>
+        </section>
+
+
+      <section class="project-section">
+        <h3>Data Pipeline & Preparation</h3>
+        <ul>
+          <li>Cleaned and preprocessed credit card transaction data to handle missing values, scale features, and remove duplicates</li>
+          <li>Addressed class imbalance in both fraud detection and credit default datasets using SMOTE oversampling</li>
+          <li>Merged transaction data with customer credit and demographic records for unified analysis</li>
+          <li>Engineered new features such as transaction frequency, average transaction value, and payment-to-credit ratio</li>
+        </ul>
+        <p>
+          The data pipeline streamlined the process from raw data ingestion to model-ready datasets, ensuring compatibility for both anomaly 
+          detection and supervised classification models.
+        </p>
+        </section>
+
+
+      <section class="project-section">
+  <h3>Exploratory Data Analysis</h3>
+
+  <p style="text-align:center; font-weight: 500; margin-bottom: 0.5rem;">Click a tab to explore insights:</p>
+
+
+  
+  <ul class="eda-tabs" style="list-style: none; padding: 0; display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin-bottom: 1rem;">
+    <li style="cursor:pointer; padding: 0.5rem 1rem; background-color: #ddd; border-radius: 6px;" onclick="showTab('tab1')">Customer Report</li>
+    <li style="cursor:pointer; padding: 0.5rem 1rem; background-color: #ddd; border-radius: 6px;" onclick="showTab('tab2')">Transaction Report</li>
+  </ul>
+
+  
+  <div id="tab1" class="eda-tab-content" style="text-align:center;">
+    <img src="images/Customer Report.PNG" alt="Customer Report" class="image-fit" />
+    <p><strong>Daily Energy Demand:</strong> Usage peaked during the first week of July.</p>
+  </div>
+
+  <div id="tab2" class="eda-tab-content" style="display:none; text-align:center;">
+    <img src="images/Transaction Report.PNG" alt="Transaction Report" class="image-fit" />
+    <p><strong>Weekday Pattern:</strong> Demand was highest on Mondays to Wednesdays.</p>
+  </div>
+
+
+  <script>
+  function showTab(tabId) {
+    // Hide all tab contents
+    const tabs = document.querySelectorAll(".eda-tab-content");
+    tabs.forEach(tab => tab.style.display = "none");
+
+    // Show selected tab
+    document.getElementById(tabId).style.display = "block";
+
+    // Update tab button styles
+    const buttons = document.querySelectorAll(".eda-tabs li");
+    buttons.forEach(btn => btn.classList.remove("active"));
+    event.target.classList.add("active");
+  }
+</script>
+
+</section>
+
+
+
+
+      <section class="project-section">
+        <h3>Modeling & Prediction</h3>
+        <ul>
+          <li>Used Isolation Forest and Local Outlier Factor (LOF) for unsupervised fraud detection.</li>
+          <li>Applied Random Forest and Logistic Regression to predict credit defaults.</li>
+          <li>Performed hyperparameter tuning and cross-validation for optimal accuracy.</li>
+          <li>Integrated SHAP for transparent, explainable model insights.</li>
+        </ul>
+      </section>
+
+      <section class="project-section">
+        <h3>Challenges</h3>
+        <ul>
+          <li>Addressing significant class imbalance across fraud detection and credit default datasets, requiring advanced sampling and balancing strategies.</li>
+          <li>Maintaining high fraud detection precision while significantly reducing false positives to avoid unnecessary alerts.</li>
+          <li>Ensuring full transparency of model decisions to meet compliance standards and build trust among stakeholders.</li>
+        </ul>
+        </section>
+
+        <section class="project-section">
+  <h3>Recommendations</h3>
+  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem;">
+
+    <!-- Text (Left) -->
+    <div style="flex: 1 1 45%; min-width: 300px;">
+      <ul style="margin-top: 0;">
+        <li>Retrain models regularly with fresh transaction and credit data to sustain accuracy.</li>
+        <li>Adopt a hybrid detection framework combining anomaly detection with deep learning.</li>
+        <li>Leverage Generative AI to simulate rare fraud scenarios for better preparedness.</li>
+        <li>Enhance dashboards with deeper drill-downs for transaction-level analysis.</li>
+      </ul>
+    </div>
+
+    <!-- Image (Right) -->
+    <div style="flex: 1 1 45%; min-width: 300px; text-align: center;">
+      <img src="images/21.jpg" alt="Insulation vs Energy" class="image-fit" style="max-width: 100%; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.08);" />
+    </div>
+
+  </div>
+</section>
+
+        <section class="project-section">
+        <h3>Achievements</h3>
+        <ul>
+          <li>Delivered over 85% accuracy in credit default prediction, with strong precision and recall in fraud detection tasks.</li>
+          <li>Successfully balanced datasets through a combination of SMOTE oversampling, targeted feature engineering, and domain-specific transformations.</li>
+          <li>Integrated SHAP-based model explainability, offering clear and actionable insights into prediction drivers.</li>
+          <li>Developed an interactive Power BI dashboard for real-time monitoring and automated fraud alerts, improving operational efficiency.</li>
+        </ul>
+        </section>
+
+
+        <section class="project-section">
+        <h3>Future Work</h3>
+        <ul>
+          <li>Incorporate streaming and real-time transaction feeds to enable instantaneous anomaly detection and risk scoring.</li>
+          <li>Leverage advanced deep learning architectures, including Autoencoders and Graph Neural Networks, for complex fraud patterns.</li>
+          <li>Integrate Generative AI for synthetic data augmentation, enabling richer training datasets and improved model generalization.</li>
+          <li>Use GenAI-driven conversational interfaces to allow stakeholders to query risk insights in natural language.</li>
+          <li>Expand the platform’s scope to include broader financial risk analytics, covering new domains like anti-money laundering and investment risk assessment.</li>
+        </ul>
+      </section>
+
+
+      <section class="project-section">
+  <h3>Skills Used</h3>
+  <div style="overflow-x: auto;">
+    <table style="width: 100%; border-collapse: collapse; text-align: left;">
+      <thead style="background-color: #efefef;">
+        <tr>
+          <th style="padding: 0.75rem; border-bottom: 2px solid #ccc;">Category</th>
+          <th style="padding: 0.75rem; border-bottom: 2px solid #ccc;">Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 0.75rem; border-bottom: 1px solid #ddd;">Programming Languages</td>
+          <td style="padding: 0.75rem; border-bottom: 1px solid #ddd;">Python (scikit-learn, pandas, NumPy)</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.75rem; border-bottom: 1px solid #ddd;">Data Engineering</td>
+          <td style="padding: 0.75rem; border-bottom: 1px solid #ddd;">Custom ETL pipelines, data cleaning, class balancing (SMOTE)</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.75rem; border-bottom: 1px solid #ddd;">Data Analysis</td>
+          <td style="padding: 0.75rem; border-bottom: 1px solid #ddd;">Exploratory Data Analysis (EDA), correlation analysis, feature engineering</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.75rem; border-bottom: 1px solid #ddd;">Modeling</td>
+          <td style="padding: 0.75rem; border-bottom: 1px solid #ddd;">Isolation Forest, Local Outlier Factor, Random Forest, Logistic Regression</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.75rem; border-bottom: 1px solid #ddd;">Visualization</td>
+          <td style="padding: 0.75rem; border-bottom: 1px solid #ddd;">Matplotlib anomaly plots, Power BI dashboards</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.75rem; border-bottom: 1px solid #ddd;">Tools & Libraries</td>
+          <td style="padding: 0.75rem; border-bottom: 1px solid #ddd;">scikit-learn, pandas, NumPy, matplotlib, SHAP, Power BI</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+</section>
+<!--
+      <section class="project-section">
+        <h3>Shiny Dashboard</h3>
+        <p>The interactive dashboard visualizes hourly predicted energy demand by county, helping eSC plan and allocate resources efficiently.</p>
+       <div style="text-align:center;">
+  <img src="images/20.jpg" alt="Shiny Dashboard Energy Visualization" class="image-fit" style="max-width: 700px; width: 100%; height: auto;" />
+
+</div>
+
+      </section>
+    -->
+      <section class="project-section">
+        <h3>Real-World Impact</h3>
+        <p>Powered by advanced AI risk intelligence, financial institutions can now uncover hidden anomalies with greater accuracy, anticipate credit defaults earlier, and strengthen the stability and trust of the entire financial ecosystem.</p>
+      </section>
+    </div>
+    
+
+ <footer id="footer">
+      <p>© Gurleen Kaur 2024</p>
+    </footer>
+  </div>
+
+  
+  <script>
+    function showTab(tabId) {
+      const tabs = document.querySelectorAll(".eda-tab-content");
+      tabs.forEach(tab => tab.style.display = "none");
+      document.getElementById(tabId).style.display = "block";
+
+      const buttons = document.querySelectorAll(".eda-tabs li");
+      buttons.forEach(btn => btn.classList.remove("active"));
+      event.target.classList.add("active");
+    }
+  </script>
+</body>
+</html>

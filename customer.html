@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sentiment Classification of Movie Reviews</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <style>
+    .project-section {
+      background: #f9f9f9;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    }
+    .project-section h3 {
+      margin-top: 0;
+    }
+    .dashboard-card img,
+    .image-fit,
+    .carousel-slide img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    .button-custom {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 0.75rem 1.5rem;
+      background-color: #2e2e2e;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    .button-custom:hover {
+      background-color: #555;
+    }
+    .carousel-container {
+      position: relative;
+      overflow: hidden;
+    }
+    .carousel-slide {
+      display: none;
+      text-align: center;
+    }
+    .carousel-slide.active {
+      display: block;
+    }
+    .carousel-btn {
+      background: transparent;
+      border: none;
+      color: #000;
+      font-size: 2rem;
+      font-weight: bold;
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 2;
+    }
+    .carousel-btn.prev {
+      left: 0;
+    }
+    .carousel-btn.next {
+      right: 0;
+    }
+  </style>
+</head>
+<body class="is-preload">
+  <div id="wrapper">
+    <header id="header">
+      <a href="generic.html" class="logo">&#8592; Back to Projects</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+      <ul class="links">
+        <li><a href="index.html">ABOUT</a></li>
+        <li class="active"><a href="generic.html">PROJECTS</a></li>
+        <li><a href="Resume.html">RESUME</a></li>
+        <li><a href="papers.html">PAPERS</a></li>
+        <li><a href="elements.html">CONTACT</a></li>
+      </ul>
+      <ul class="icons">
+        <li><a href="https://www.linkedin.com/in/gurleen-kaur-6074051b0/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        <li><a href="https://github.com/gurleen-1" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+      </ul>
+    </nav>
+
+    <!-- Main -->
+
+    <div id="main">
+      <article class="post featured">
+        <header class="major">
+          <h1>Customer Churn</h1>
+<p>Harnessing state-of-the-art NLP and deep learning methods to decode emotions embedded within movie critiques.</p>
+</header>
+        <div style="text-align: center;">
+          <img src="images/sentimnetmain.jpg" alt="Sentiment Dashboard" class="image-fit" />
+        </div>
+      </article>
+
+      <section class="project-section">
+        <h3>Project Overview</h3>
+        <p>This project leverages Natural Language Processing (NLP) and Deep Learning techniques to analyze and predict sentiment in movie reviews. By integrating multiple text preprocessing strategies and advanced neural network architectures, the system identifies whether a review expresses positive or negative sentiment. The project further explores the use of Transfer Learning and pre-trained embeddings to enhance prediction accuracy and generalization.</p>
+      </section>
+
+      <section class="project-section">
+        <h3>Dataset</h3>
+        <p>The dataset was sourced from Kaggle and is based on IMDb movie reviews. It contains 50,000 reviews labeled as either positive or negative sentiments and was split into training and testing sets for model development.
+<a href="https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews" target="_blank">Kaggle Dataset Link</a></p>
+      </section>
+
+      <section class="project-section">
+  <h3>Key Visualizations</h3>
+  <div class="carousel-container">
+    <button class="carousel-btn prev" onclick="moveSlide(-1)">❮</button>
+
+    <div class="carousel-slide active">
+      <img src="images/sentiment_distribution_final.png" alt="Sentiment Distribution" />
+      <h4>Sentiment Distribution</h4>
+      <p>Shows the count of positive and negative sentiments in movie reviews, illustrating dataset balance.</p>
+    </div>
+
+    <div class="carousel-slide">
+      <img src="images/confusion_matrix_final.png" alt="Confusion Matrix" />
+      <h4>Confusion Matrix</h4>
+      <p>Visualizes the model’s prediction accuracy by comparing actual vs predicted sentiment labels.</p>
+    </div>
+
+    <div class="carousel-slide">
+      <img src="images/model_accuracy_static.png" alt="Model Accuracy over Epochs" />
+      <h4>Model Accuracy Over Epochs</h4>
+      <p>Displays training and validation accuracy progression across epochs for the LSTM sentiment model.</p>
+    </div>
+
+    <button class="carousel-btn next" onclick="moveSlide(1)">❯</button>
+  </div>
+</section>
+
+
+      <section class="project-section">
+        <h3>Observation & Conclusion</h3>
+        <p>Deep learning models, particularly the LSTM with pre-trained GloVe embeddings, outperformed traditional classifiers in sentiment prediction on movie reviews. Data preprocessing and embedding layers significantly improved model accuracy, with the LSTM achieving over 90% accuracy. However, simpler models like CNN and simple neural networks also showed competitive results. This demonstrates the importance of combining effective text preprocessing with advanced model architectures for sentiment analysis.</p>
+      </section>
+
+      <section class="project-section">
+        <h3>Project Links</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center;">
+          <p><strong>GitHub Repository:</strong> <a href="https://github.com/gurleen-1/Sentiment-Analysis" target="_blank">GitHub</a></p>
+          <!--<p><strong>Final Report:</strong> <a href="https://drive.google.com/file/d/1c3wjUePqB3-sCBqfrDIaFWBB2u9EDLuw/view?usp=drive_link" target="_blank">View PDF</a></p>-->
+        </div>
+      </section>
+
+      <section class="project-section">
+        <h3>Real-World Impact</h3>
+        <p>This project enables accurate sentiment classification in movie reviews, aiding platforms in understanding audience feedback and improving recommendations. The system’s ability to predict sentiment and probable ratings in real-time can be extended to customer sentiment monitoring, brand reputation management, and automated review analysis across domains such as entertainment, retail, and social media.</p>
+      </section>
+    </div>
+
+     <!-- Footer -->
+    <footer id="footer">
+      <p>© Gurleen Kaur 2023</p>
+    </footer>
+
+  </div>
+
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.carousel-slide');
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
+      });
+    }
+
+    function moveSlide(step) {
+      currentSlide = (currentSlide + step + slides.length) % slides.length;
+      showSlide(currentSlide);
+    }
+
+    showSlide(currentSlide);
+    let autoplayInterval = setInterval(() => {
+      moveSlide(1);
+    }, 3000);
+  </script>
+</body>
+</html>
