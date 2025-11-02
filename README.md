@@ -9,7 +9,8 @@ Every project I take on is a way to learn something new and push myself a little
 
 
 **📫 Let’s connect:**  
+- [Email](mailto:gurleenkaur2101@gmail.com)
 - [Portfolio](https://gurleen-1.github.io/Portfolio/)  
 - [GitHub](https://github.com/gurleen-1)  
 - [LinkedIn](https://www.linkedin.com/in/gurleeenkaaur/)
-- [Email](mailto:gurleenkaur2101@gmail.com)
+
